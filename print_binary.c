@@ -2,11 +2,11 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * print_bin - It converts decimal to binary
+ * print_binary - It converts decimal to binary
  * @b: number in decimal
  * Return: number of chars printed
  */
-int print_bin(va_list b)
+int print_binary(va_list b)
 {
 	unsigned int len, powten, i, digit, n, num;
 	int count = 0;
