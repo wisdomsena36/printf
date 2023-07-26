@@ -15,7 +15,7 @@ int print_string(va_list s)
 	if (my_string == NULL)
 		my_string = "(null)";
 
-	while (my_string[i] != '\0') // Corrected the condition to check for null terminator.
+	while (my_string[i] != '\0')
 	{
 		_putchar(my_string[i]);
 		i++;
